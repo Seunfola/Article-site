@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    font-family: Rubik;
+}
+header{
+    text-align: center;
+    border-bottom:  2px solid #dcdcdc;
+}
+header,h1{
+    font-weight: 400;
+    text-align: center;
+    margin: 40px auto;
+}
+#articleContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 90%;
+    flex-wrap: wrap;
+    border: .5px solid black;
+    /* padding: 10px; */
+}
+div{
+    width: 20%;
+    margin: 20px 5px;
+    border: .5px solid black;
+    padding: 20px;
+}
+h4{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+img {
+    margin-bottom: 10px;
+}
+a{
+    border: 1px solid rgb(232, 228, 228);
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 4px 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: black;
+}
