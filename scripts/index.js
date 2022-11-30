@@ -24,7 +24,7 @@ const displayNews = (data) =>{
     title.innerText = item.title;
 
     // setting image
-    articleImg.src = item.url;
+    articleImg.src = item.avatar;
     articleImg.alt = 'article Img';
     articleImg.width = '200';
 
