@@ -35,7 +35,7 @@ const displayNews = (data) =>{
     }
     // generating and setting the links
 
-    link.href =`/pages/content?id=${item.id}`;
+    link.href =`/pages/content.html?id=${item.id}`;
     link.target ='_blank';
     link.innerText = 'Read More...'
 
