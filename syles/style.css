@@ -9,9 +9,14 @@
     width: 100%;
 }
 nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
     background-color: black;
     height: 50px;
     font-family: Rubik;
+   
 }
 header{
     text-align: center;
@@ -121,4 +126,42 @@ a{
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     line-height: 23px;
+}
+.link-btn, button{
+    cursor: pointer;
+    padding: 10px 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+}
+ button:hover{
+background-color: transparent;
+color: white;
+border: .5px solid white;
+}
+form{
+    
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+form fieldset{
+    text-align: left;
+    border: 2px solid black;
+ font-size: 14px; 
+ padding: 1rem;  
+ margin: 1rem;
+}
+form fieldset legend{
+margin-left: 10px;
+padding-right: 10px;
+}
+.form-text{
+    width: 90%;
+    padding: 15px;
 }

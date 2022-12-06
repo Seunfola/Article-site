@@ -27,6 +27,11 @@ const displayNewsDetails = (data) =>{
     author.innerHTML = data.author;
     url.innerHTML = data.url;
     image.src = data.avatar;
+    image.onerror =()=>{
+        image.onerror = null;
+        image.src ='../assets/image/WhatsApp Image.jpg'
+
+    }
 }
 
 
